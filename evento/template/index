@@ -1,0 +1,5 @@
+
+{% for poll in latest_poll_list %}
+{{ poll.question }}
+{% endfor %}
+   

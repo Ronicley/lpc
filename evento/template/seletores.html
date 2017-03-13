@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>SELETORES</title>
+		<link rel="stylesheet" type="text/css" href="css/css.css">
+	</head>
+	<body>
+	<figure>
+		<p>HTML & CSS3</p>
+	</figure>
+		<nav>
+			<ul class="menu">
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="pagHTML.html">HTML</a></li>
+				<li><a href="seletores.html">CSS</a></li>
+				<li><a href="curriculun.html">SOBRE</a></li>
+				<li><a href="formulario.html">CADASTRE-SE</a></li>
+			</ul>
+		</nav>
+		<aside>
+			&lt;TOPICOS&gt;</br>&lt;ESPECIAS&gt;
+		</aside>
+			<article>
+				<section>
+					<header>
+						<h1>SELETORES</h1>
+					</header>
+							<h3>Universais: *</h3>
+								<p>A principal utilização do seletor universal é "zerar" essas propriedades para
+								todos os elementos da marcação. Como consequência o autor terá que definir explicitamente
+								para cada elemento, na sua folha de estilos, aqueles valores.
+								Exemlo:</br>*p{</br>
+										Color: red;</br>
+										}</p>
+							<h3>SELETOR DE TIPO:</h3>
+								<p>Usado para estilizar os elementos da marcação que são de um mesmo tipo;
+								por exemplo: elemento do tipo p (parágrafo), do tipo div, do tipo ol, e assim por diante.
+								</p>
+								<p>Usado para estilizar os elementos da marcação que são de um mesmo tipo; por exemplo:
+								elemento do tipo p (parágrafo), do tipo div, do tipo ol, do tipo strong, e assim por diante.</p>
+							<h3>SELETOR DE CLASSE:</h3>
+								<p> seleciona elementos com uma classe específica aplicada:
+							
+								Exemplo:<strong> .nome da classe</strong>
+								</p>
+							<h3>SELETOR PSEUDO-CLASSE</h3>
+								<p>Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores 
+								que especifica um estado especial do elemento selecionado. Por exemplo :hover  será aplicado um
+								estilo quando o usuário passar o cursor sobre o elemento especificado pelo seletor.
+								</p>
+							<h3>Alguns exemplos</h3>
+								<ul>
+									<li>hover</li>
+									<li>link</li>
+									<li>visited</li>
+									<li>active</li>
+									<li>first-child</li>
+									<li>lang</li>
+								</ul>
+							<h3>SELETOR PSEUDO-ELEMENTO</h3>
+								<p>Assim como pseudo-classes, pseudo-elementos são adicionados aos seletores, mas em vez de,</br>
+								descrever um estado especial, eles permitem que você aplique estilos em certas partes de um documento.</br>
+								Por exemplo, o pseudo-elemento ::first-line aplica o estilo apenas na primeira linha do elemento especificado</br>
+								pele seletor.
+								</br>seletor::pseudo-elemento {</br>
+													propriedade: valor;</br>
+															}
+								</p>
+							<h3>Exemplo:</h3>
+								<ul>
+									<li>::first-line</li>
+									<li>::first-letter</li>
+									<li>::before</li>
+									<li>::after</li>
+									<li>first-child</li>
+									<li>::selection</li>
+								</ul>
+						
+				</section>
+				<section>
+					<header>
+						<h1>CORES</h1>
+					</header>
+						<article>
+							Define a cor dos conteúdos textuais ou cor de frente dos elementos de marcação;</br>
+							Valores podem ser :</br>
+								Hexadecimal; Representação inicia-se com o sinal de tralha (#);</br>
+								Palavra-chave (red);</br>
+								RGB;  RED(vermelho), GREEN(verde),BLUE(azul)</br>
+								RGBA; Possibilidade de editar a opacidade</br>
+								HSL; Tom (Hue), Saturação (Saturation), Luminosidade (Lightness);</br>
+								HSLA; Possibilidade de editar a opacidade.
+						</article>
+						<div class="qui">background: linear-gradient(hsl(0,100%,50%), hsl(60,100%,50%), hsl(120,100%,50%), hsl(180,100%,50%), hsl(240,100%,50%), hsl(300,100%,50%));</div>
+						
+						
+					
+				</section>
+				<section>
+					<header>
+						<h1>BORDAS</h1>
+					</header>
+						<article>
+							Define a cor dos conteúdos textuais ou cor de frente dos elementos de marcação;
+							Decorações a serem anexadas aos quatro lados dos elementos;
+							<ul>
+								<li>Propriedades:</li>
+								<ol>
+									<li>border-width;</li>
+									<li>border-style;</li>
+									<li>border-radius;</li>
+									<li>border-image;</li>
+								</ol>
+							</ul>
+							<h3>Exemplo de bordas</h3>
+							<div class="um">double;</div>
+							<div class="dois">solid;</div>
+							<div class="tres">dashed;</div>
+						</article>
+						
+					
+				</section>
+				<section>
+					<header>
+						<h1>FONTES</h1>
+					</header>
+						<article>
+							<p>As propriedades para estilização de fontes, definem os diferentes aspectos de apresentação dos glifos</br>
+							(letras e caracteres) que compõem os conteúdos textuais dos diferentes elementos da marcação HTML.</p>
+							<ul>
+								<li>color:...........cor da fonte;</li>
+								<li>font-family:.....família (tipo) de fontes;</li>
+								<li>font-size:.......tamanho da fonte;</li>
+								<li>font-style:......estilo da fonte;</li>
+								<li>font-variant:....fontes maiúsculas de menor altura;</li>
+								<li>font-weight:.....peso da fonte;</li>
+								<li>font-stretch:....grau de espansão/contração dos glifos;</li>
+								<li>font:............maneira abreviada para declarar todas </li>
+								<li>as propriedades anteriores (exceto cor).</li>
+							</ul>
+						</article>
+				</section>
+				<section>
+					<header>
+						<h1>SOMBRAS em Box e Texto</h1>
+					</header>
+						<article>
+							<p>O atributo box-shadow precisa que o desenvolvedor passe
+							alguns parâmetros padrões para que seja configurada algumas
+							características das sombras,como esfumaçado, divisão de sombra,
+							se a sombra terá alguma cor diferente da normal(preta) ou a própria caixa(box).
+							 Leia mais em <a href="http://www.linhadecodigo.com.br/artigo/3633/entendendo-o-atributo-box-shadow-nas-css3.aspx#ixzz4AL6EUQov">linha de codigo </a></p>
+							<div class="quatro">Texto 1</br>box-shadow: 2px 2px 2px black;</br>text-shadow:2px 2px 2px black;</div>
+							<div class="cinco">Texto 2</br>box-shadow: inset 5px 5px 8px #000000;</br>text-shadow:inset 5px 5px 8px #000000;</div>
+							<div class="seis">Texto 3</div>
+						</article>
+				</section>
+				<section>
+					<header>
+						<h1>BOXES</h1>
+					</header>
+						<article>
+							margin, border, padding, width, max-width, min-width, height, max-height e min-height;
+							
+							<ul>
+								<li>Boxes podem ser</li>
+								<ol>
+									<li>De bloco (div, p, ul, h1, etc.);</li>
+									<li>De linha (linhas de texto);</li>
+									<li>Inline (a, strong, span, etc.);</li>
+									<li>Box anônimo;</li>
+								</ol>
+							</ul>
+						</article>
+						
+				</section>
+				<section>
+					<header>
+						<h1>DISPLAY</h1>
+					</header>
+						<article>
+							margin, border, padding, width, max-width, min-width, height, max-height e min-height;
+							
+							<ul>
+								<li>Propriedade display determina o tipo de box para um elemento;</li>
+								<ol>
+									<li>inline:Um elemento de linha pode preencher algum texto dentro de um parágrafo
+										&lt;span&gt;como esse &lt;/span&gt; sem quebrar o fluxo daquele parágrafo. O elemento a é
+										o elemento de linha mais comum, já que ele é utilizado para links.
+									</li>
+									<li><div class="exxx">block: div é o exemplo de bloco mais comum. O elemento de bloco sempre começa em uma
+											nova linha e se expande pra esquerda e direita o tanto quanto for possível. Outros elementos
+											de bloco comuns são p e form, e agora no HTML5 temos: header, footer, section e outros.
+										</div>
+									</li>
+									<li>inline-block:  boxes nível de bloco, dispostos como boxes inline;</li>
+									<li>list-item: disposto como lista</li>
+									<li>none;</li>
+								</ol>
+							</ul>
+						</article>
+						Posicionamento
+				</section>
+				<section>
+					<header>
+						<h1>POSITION</h1>
+					</header>
+						<article>
+						O Position é uma propriedade perigosa para iniciantes. Normalmente o desenvolvedor
+						que acaba de conhecer essa propriedade, acha que ela é a resposta para todos
+						os problemas de posicionamento e diagramação de layout. Pelo contrário. O Position
+						não serve para diagramar a estrutura de layouts. Para isso, você utiliza a propriedade
+						float do css. O Position vai servir para fazer coisas mais simples.
+						<b>Existem 3 tipos de valores que usamos na propriedade position: relative, absolute e fixed.</b></br>
+						Mais em <a href="http://tableless.com.br/propriedade-position-do-css/">TABLELESS</a>
+						</article>
+						<h3>FLOAT</h3>
+						<h4>Sem float</h4>
+						<article>Float é uma propriedade CSS que usamos para posicionar algo na tela, seja um elemento em bloco ou em linha.</article>
+						<div>
+							<div class="container">
+								
+								<div class="sete"><p>DIV 1</p></div>
+								<div class="oito"><p>DIV 2</p></div>
+								<div class="nove"><p>DIV 3</p></div>
+								<div class="dez"><p>DIV 4</p></div>
+								<div class="onze"><p>DIV 5</p></div>
+								<div class="doze"><p>DIV 6</p></div>
+							</div>
+							<h4>Com float</h4>
+							<div class="cont">
+								<div class="treze"><p>DIV 1</p></div>
+								<div class="quatorze"><p>DIV 2</p></div>
+								<div class="quinze"><p>DIV 3</p></div>
+								<div class="dezeseis"><p>DIV 4</p></div>
+								<div class="zesete"><p>DIV 5</p></div>
+								<div class="zoito"><p>DIV 6</p></div>
+							</div>
+						<div>
+				</section>
+			</article>
+			<footer>
+			</footer>	
+	</body>
+</html>

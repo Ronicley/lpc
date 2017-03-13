@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>SELETORES</title>
+		<link rel="stylesheet" type="text/css" href="css/css.css">
+	</head>
+	<body>
+		<figure>
+			<p>HTML & CSS3</p>
+		</figure>
+			<nav>
+				<ul class="menu">
+					<li><a href="home.html">HOME</a></li>
+					<li><a href="pagHTML.html">HTML</a></li>
+					<li><a href="seletores.html">CSS</a></li>
+					<li><a href="curriculun.html">SOBRE</a></li>
+					<li><a href="formulario.html">CADASTRE-SE</a></li>
+				</ul>
+			</nav>
+		<form>
+		<h1>Formulário para Cadastro</h1>
+			<fieldset>
+			<legend>Informações pessoais</legend>		
+				Nome <input type="text" name="nome" maxlength="20" placeholder="Digite seu nome"> 
+				Sobrenome<input type="text" name="sobrenome" maxlength="20" placeholder="Digite seu sobrenome">		
+				<p></p>		
+				Data de nascimento <input type="date"> 
+				<p></p>
+				Sexo<br/>
+					<input type="radio" name="nome" value="male"> Masculino<br>
+					<input type="radio" name="nome" value="female"> Feminino<br>
+				<p></p>
+				CPF <input type="number" name="nome" maxlength="11">
+				RG <input type="number" name="nome" maxlength="8">
+			</fieldset>
+			<p></p>
+			<fieldset>	
+			<legend>Endereço</legend>	
+				Bairro <input list="BAIRRO" type="text" name="nome" maxlength="20" placeholder="Bairro">
+				<datalist id="BAIRRO">
+					<option value="Bertaville">
+					<option value="Plano Diretor Norte">
+					<option value="Setor Santo Amaro">
+					<option value="Centro">
+					<option value="Plano Diretor Sul">
+					<option value="Mirante do Lago">
+					<option value="Setor Universitário">
+					<option value="Setor Bela Vista">
+					<option value="Setor Lago Norte">
+				</datalist>
+				<p></p>
+				Rua <input type="text" name="nome" maxlength="15" placeholder="Rua">
+				Número <input type="number" name="nome" maxlength="15">
+				<p></p>
+				UF<input list="ESTADO" type="text" name="nome" maxlength="20" placeholder="Estado">
+				<datalist id="ESTADO">
+					<option value="Acre">
+					<option value="Alagoas">
+					<option value="Amapá">
+					<option value="Amazonas">
+					<option value="Bahia">
+					<option value="Ceará">
+					<option value="Distrito Federal">
+					<option value="Espírito Santo">
+					<option value="Goiás">
+					<option value="Maranhão">
+					<option value="Mato Grosso">
+					<option value="Mato Grosso do Sul">
+					<option value="Minas Gerais">
+					<option value="Pará">
+					<option value="Paraíba">
+					<option value="Paraná">
+					<option value="Pernambuco">				
+					<option value="Piauí">
+					<option value="Rio de Janeiro">
+					<option value="Rio Grande do Norte">
+					<option value="Rio Grande do Sul">
+					<option value="Rondônia">
+					<option value="Roraima">
+					<option value="Santa Catarina">
+					<option value="São Paulo">
+					<option value="Sergipe">
+					<option value="Tocantins">				
+				</datalist>
+				<p></p>
+				Cidade <input type="text" name="nome" maxlength="15" placeholder="Cidade">
+				CEP <input type="number" name="nome" maxlength="15">
+			</fieldset>
+			<p></p>		
+			<fieldset>
+				<legend>DADOS DE LOGIN</legend>
+				Email <input type="email" name="email" placeholder="E-mail">
+				<p></p>
+				Login <input type="text" name="nome" placeholder="Login">
+				<p></p>
+				Senha <input type="email" name="nome" placeholder="Senha">
+				Confirmar senha <input type="password" name="nome" placeholder="Confirmar Senha">
+				<br/><input type="file" name="imagem" placeholder="Anexar uma imagem" accept="image/*">
+			</fieldset>
+				<p></p>	
+				<legend>PREFERENCIAS</legend>
+			<fieldset name="navegadores"><br>
+				<input type="checkbox" name="nome" value="browser"> Google Chrome<br>
+				<input type="checkbox" name="nome" value="browser"> Opera<br>
+				<input type="checkbox" name="nome" value="browser"> Internet Explore<br>
+				<input type="checkbox" name="nome" value="browser"> Safira<br>
+				<input type="checkbox" name="nome" value="browser"> Firefox<br>
+				<p></p>	
+				<input type="checkbox" name="nome" value="browser">Outros<br>
+				<p></p>	
+			</fieldset>	
+			<p></p>
+			<button type="button" onclick="Hello bird">Enviar Fórmulario</button>
+		</body>	
+</html>
